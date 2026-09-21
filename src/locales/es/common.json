@@ -1,9 +1,11 @@
-﻿{
+{
   "navigation": {
     "label": "Navegación principal",
-    "projects": "Proyectos",
+    "projects": "Trabajo",
     "about": "Sobre mí",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
   },
   "language": {
     "label": "Idioma",
@@ -12,14 +14,23 @@
   },
   "theme": {
     "label": "Tema",
-    "system": "Sistema",
     "light": "Claro",
-    "dark": "Oscuro"
+    "dark": "Oscuro",
+    "toggle": "Modo oscuro"
   },
   "skip": "Saltar al contenido",
   "hero": {
-    "description": "Provisional: diseñador digital en México.",
-    "placeholder": "Provisional: texto de introducción pendiente."
+    "eyebrow": "Hola, soy {{name}}.",
+    "headline": "Diseñador digital creando marcas, interfaces y experiencias interactivas.",
+    "description": "Combino UX/UI, identidad visual, motion y 3D para crear experiencias digitales claras, expresivas y funcionales.",
+    "location": "Ubicado en México.",
+    "availability": "Disponible para oportunidades.",
+    "disciplines": "UX/UI · Marca · Motion · 3D",
+    "selectedWork": "Trabajo seleccionado",
+    "resume": "CV",
+    "linkedin": "LinkedIn",
+    "linksLabel": "Explora mi trabajo y perfil",
+    "pending": "Enlace pendiente"
   },
   "projectIndex": {
     "title": "Índice de proyectos",
@@ -43,5 +54,8 @@
     "title": "Página no encontrada",
     "description": "Provisional: esta página no está disponible.",
     "home": "Volver al inicio"
+  },
+  "metadata": {
+    "title": "{{name}} | Diseñador digital"
   }
 }

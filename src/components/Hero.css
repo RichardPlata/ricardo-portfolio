@@ -1,0 +1,81 @@
+﻿.hero {
+  min-height: 78svh;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-content: end;
+  column-gap: clamp(1rem, 2.2vw, 2rem);
+  row-gap: clamp(2.5rem, 5vh, 4rem);
+  padding-block: clamp(4rem, 10vh, 7rem) clamp(2.5rem, 6vh, 4rem);
+}
+.hero-main { grid-column: 1 / 9; }
+.hero-eyebrow {
+  margin-bottom: clamp(1.5rem, 3.5vh, 2.5rem);
+  color: var(--color-secondary);
+  font-size: clamp(0.875rem, 1vw, 1rem);
+  font-weight: 500;
+}
+.hero-headline {
+  max-width: 16ch;
+  font-size: clamp(2.75rem, 4.45vw, 4.75rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+  text-wrap: balance;
+}
+.hero-secondary { grid-column: 10 / -1; align-self: end; }
+.hero-description {
+  color: var(--color-secondary);
+  font-size: clamp(0.9375rem, 1.08vw, 1.0625rem);
+  line-height: 1.7;
+}
+.hero-profile { margin-top: var(--space-4); font-size: 0.8125rem; line-height: 1.8; }
+.hero-profile > p + p { margin-top: 0.125rem; }
+.hero-profile .hero-disciplines { margin-top: var(--space-2); color: var(--color-muted); }
+.hero-links {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: var(--space-3) clamp(1.5rem, 3.5vw, 3.5rem);
+}
+.editorial-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.875rem;
+  min-height: 2.75rem;
+  padding-block: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 550;
+  text-decoration: none;
+}
+a.editorial-link > span:first-child {
+  border-bottom: 1px solid var(--color-border);
+  transition: border-color var(--motion-duration) var(--motion-easing);
+}
+a.editorial-link:hover > span:first-child { border-bottom-color: currentColor; }
+.editorial-link-pending { flex-direction: column; gap: 0.125rem; color: var(--color-muted); }
+.link-pending-label { font-size: 0.6875rem; font-weight: 400; }
+
+@media (max-width: 56rem) {
+  .hero {
+    min-height: calc(82svh - var(--header-height));
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-4);
+    padding-block: clamp(3rem, 7vh, 5rem) var(--space-4);
+  }
+  .hero-main, .hero-secondary, .hero-links { grid-column: 1; }
+  .hero-headline { max-width: 19ch; font-size: clamp(2.5rem, 6.8vw, 3.75rem); }
+  .hero-secondary { max-width: 36rem; }
+  .hero-description { font-size: 1rem; }
+  .hero-profile { margin-top: var(--space-3); }
+}
+@media (max-width: 40rem) {
+  .hero {
+    min-height: auto;
+    padding-block: clamp(2.5rem, 7vh, 4rem) var(--space-4);
+    gap: var(--space-3);
+  }
+  .hero-eyebrow { margin-bottom: var(--space-3); }
+  .hero-headline { font-size: clamp(2.125rem, 9.8vw, 3rem); letter-spacing: -0.045em; }
+  .hero-links { gap: var(--space-2) var(--space-3); }
+}

@@ -1,28 +1,12 @@
 ﻿import { useEffect, useState } from 'react'
-
-const storageKey = 'ricardo-portfolio-theme'
-
-function readPreference() {
-  try {
-    const stored = localStorage.getItem(storageKey)
-    return ['light', 'dark'].includes(stored) ? stored : 'system'
-  } catch {
-    return 'system'
-  }
-}
+import { applyTheme, getInitialTheme, saveTheme } from '../theme/theme.js'
 
 export default function useTheme() {
-  const [theme, setTheme] = useState(readPreference)
+  const [theme, setTheme] = useState(getInitialTheme)
 
   useEffect(() => {
-    if (theme === 'system') delete document.documentElement.dataset.theme
-    else document.documentElement.dataset.theme = theme
-    try {
-      if (theme === 'system') localStorage.removeItem(storageKey)
-      else localStorage.setItem(storageKey, theme)
-    } catch {
-      // Theme control remains usable when browser storage is unavailable.
-    }
+    applyTheme(theme)
+    saveTheme(theme)
   }, [theme])
 
   return [theme, setTheme]

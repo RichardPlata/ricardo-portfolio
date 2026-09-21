@@ -1,4 +1,5 @@
-﻿import { useEffect } from 'react'
+﻿import { siteConfig } from '../config/siteConfig.js'
+import { useEffect } from 'react'
 import { Navigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import SiteLayout from './SiteLayout.jsx'
@@ -12,6 +13,7 @@ export default function LanguageLayout() {
     if (!supported) return
     i18n.changeLanguage(lang)
     document.documentElement.lang = lang
+    document.title = i18n.t('metadata.title', { lng: lang, name: siteConfig.name })
     try {
       localStorage.setItem('ricardo-portfolio-language', lang)
     } catch {
@@ -24,3 +26,4 @@ export default function LanguageLayout() {
   if (i18n.resolvedLanguage !== lang) return null
   return <SiteLayout />
 }
+

@@ -1,9 +1,11 @@
-﻿{
+{
   "navigation": {
     "label": "Main navigation",
-    "projects": "Projects",
+    "projects": "Work",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
   },
   "language": {
     "label": "Language",
@@ -12,14 +14,23 @@
   },
   "theme": {
     "label": "Theme",
-    "system": "System",
     "light": "Light",
-    "dark": "Dark"
+    "dark": "Dark",
+    "toggle": "Dark mode"
   },
   "skip": "Skip to content",
   "hero": {
-    "description": "Provisional: Digital Designer based in Mexico.",
-    "placeholder": "Provisional: introduction copy pending."
+    "eyebrow": "Hi, I’m {{name}}.",
+    "headline": "Digital designer shaping brands, interfaces and interactive experiences.",
+    "description": "I combine UX/UI, visual identity, motion and 3D to create digital experiences that feel clear, expressive and useful.",
+    "location": "Based in Mexico.",
+    "availability": "Available for opportunities.",
+    "disciplines": "UX/UI · Brand · Motion · 3D",
+    "selectedWork": "Selected work",
+    "resume": "Résumé",
+    "linkedin": "LinkedIn",
+    "linksLabel": "Explore my work and profile",
+    "pending": "Link pending"
   },
   "projectIndex": {
     "title": "Project index",
@@ -43,5 +54,8 @@
     "title": "Page not found",
     "description": "Provisional: this page is not available.",
     "home": "Return home"
+  },
+  "metadata": {
+    "title": "{{name}} | Digital Designer"
   }
 }
