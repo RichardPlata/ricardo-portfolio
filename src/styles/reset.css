@@ -1,0 +1,7 @@
+﻿*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+h1, h2, h3, p, figure { margin: 0; }
+button, input, select, textarea { font: inherit; }
+img, video, svg { display: block; max-width: 100%; }
+img, video { height: auto; }
+button, a { -webkit-tap-highlight-color: transparent; }

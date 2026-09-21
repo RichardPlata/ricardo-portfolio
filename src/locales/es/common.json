@@ -1,0 +1,47 @@
+﻿{
+  "navigation": {
+    "label": "Navegación principal",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "language": {
+    "label": "Idioma",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "theme": {
+    "label": "Tema",
+    "system": "Sistema",
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "skip": "Saltar al contenido",
+  "hero": {
+    "description": "Provisional: diseñador digital en México.",
+    "placeholder": "Provisional: texto de introducción pendiente."
+  },
+  "projectIndex": {
+    "title": "Índice de proyectos",
+    "label": "Filtrar proyectos",
+    "filters": {
+      "featured": "Destacados",
+      "projects": "Proyectos",
+      "freestyle": "Exploraciones"
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Provisional: biografía breve pendiente.",
+    "photo": "Provisional: fotografía personal pendiente."
+  },
+  "footer": {
+    "title": "Contacto",
+    "description": "Provisional: datos de contacto y enlaces profesionales pendientes."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Provisional: esta página no está disponible.",
+    "home": "Volver al inicio"
+  }
+}

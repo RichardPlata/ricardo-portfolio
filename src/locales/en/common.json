@@ -1,0 +1,47 @@
+﻿{
+  "navigation": {
+    "label": "Main navigation",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "theme": {
+    "label": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "skip": "Skip to content",
+  "hero": {
+    "description": "Provisional: Digital Designer based in Mexico.",
+    "placeholder": "Provisional: introduction copy pending."
+  },
+  "projectIndex": {
+    "title": "Project index",
+    "label": "Filter projects",
+    "filters": {
+      "featured": "Featured",
+      "projects": "Projects",
+      "freestyle": "Freestyle"
+    }
+  },
+  "about": {
+    "title": "About",
+    "description": "Provisional: short biography pending.",
+    "photo": "Provisional: personal photograph pending."
+  },
+  "footer": {
+    "title": "Contact",
+    "description": "Provisional: contact details and professional links pending."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "Provisional: this page is not available.",
+    "home": "Return home"
+  }
+}

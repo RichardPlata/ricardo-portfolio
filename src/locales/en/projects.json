@@ -1,0 +1,9 @@
+﻿{
+  "empty": "Provisional: selected freestyle pieces pending.",
+  "count_one": "{{count}} project shown.",
+  "count_other": "{{count}} projects shown.",
+  "cardPlaceholder": "Provisional: project content and media pending.",
+  "back": "Back to project index",
+  "detailPlaceholder": "Provisional: case study content and media pending approval.",
+  "collectionTitle": "Projects in this collection"
+}

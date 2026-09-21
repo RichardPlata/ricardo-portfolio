@@ -1,0 +1,9 @@
+﻿{
+  "empty": "Provisional: selección de exploraciones pendiente.",
+  "count_one": "{{count}} proyecto mostrado.",
+  "count_other": "{{count}} proyectos mostrados.",
+  "cardPlaceholder": "Provisional: contenido y material visual del proyecto pendientes.",
+  "back": "Volver al índice de proyectos",
+  "detailPlaceholder": "Provisional: contenido y material visual del caso de estudio pendientes de aprobación.",
+  "collectionTitle": "Proyectos de esta colección"
+}
